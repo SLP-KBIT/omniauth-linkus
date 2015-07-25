@@ -24,9 +24,9 @@ It is necessary to start the [linkus](https://github.com/SLP-KBIT/linkus) app.
 And, add to your config/initializers/devise.rb
 ```rb
 config.omniauth :linkus, ENV['LINKUS_APP_ID'], ENV['LINKUS_APP_SECRET'], client_options: {
-    site: ENV['LINKUS_URL'],
-    authorize_url: ENV['LINKUS_URL'] + '/oauth/authorize',
-    token_url: ENV['LINKUS_URL'] + '/oauth/token'
-  }
+  site: ENV['LINKUS_URL'],
+  authorize_url: ENV['LINKUS_URL'] + '/oauth/authorize',
+  token_url: ENV['LINKUS_URL'] + '/oauth/token'
+}
 ```
 
