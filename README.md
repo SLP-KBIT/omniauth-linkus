@@ -1,4 +1,5 @@
 # OmniAuth linkus
+[![Gem Version](https://badge.fury.io/rb/omniauth-linkus.svg)](http://badge.fury.io/rb/omniauth-linkus)
 
 linkus OAuth2 Strategy for OmniAuth.
 
